@@ -1,0 +1,149 @@
+.App {
+  background-color: #acdf82;
+  padding: 20px;
+}
+
+h1 {
+  color: #131111;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+.get-container {
+  margin-top: 20px;
+}
+
+.get-table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.get-table th,
+.get-table td {
+  border: 1px solid #0fa34c;
+  padding: 8px;
+}
+
+.get-table th {
+  background-color: #b1cb09;
+  text-align: left;
+}
+.delete-container {
+  margin-top: 20px;
+}
+
+.delete-table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.delete-table th,
+.delete-table td {
+  border: 1px solid #e51a1a;
+  padding: 8px;
+}
+
+.delete-table th {
+  background-color: #4a4ccc;
+  text-align: left;
+}
+
+.delete-table button {
+  padding: 6px 12px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.getbyid-container {
+  margin-top: 20px;
+}
+
+.getbyid-input {
+  margin-right: 10px;
+}
+
+.getbyid-button {
+  margin-top: 10px;
+  padding: 6px 12px;
+  background-color: #007bff;
+  color: #931010;
+  border: none;
+  cursor: pointer;
+}
+
+.getbyid-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.getbyid-table th,
+.getbyid-table td {
+  border: 1px solid #b60808;
+  padding: 8px;
+}
+
+.getbyid-table th {
+  background-color: #ca1717;
+  text-align: left;
+}
+
+.getbyid-error {
+  margin-top: 10px;
+  color: red;
+  font-size: 16px;
+}
+.put-container {
+  margin-top: 20px;
+}
+
+.put-table {
+  color: #e60909;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.put-table th,
+.put-table td {
+  color: #101010;
+  border: 1px solid
+}
+
+.data-insert-container {
+  width: 400px;
+  margin: 0 auto;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group {
+  margin-bottom: 10px;
+}
+
+label {
+  font-weight: bold;
+}
+
+input[type="text"] {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  padding: 8px 12px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
